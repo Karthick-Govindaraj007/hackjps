@@ -4,7 +4,7 @@ from bs4 import BeautifulSoup
 from flask import Flask, request, redirect, url_for, render_template, render_template_string
 from markdown import markdown
 
-genai.configure(api_key='AIzaSyCApG2t1VdqFVmSL4nAUPxJe-ZUh4_swoM')  # Enter your api key here!
+genai.configure(api_key='YOUR_API_KEY_HERE')  # Enter your api key here!
 
 model = genai.GenerativeModel('gemini-1.5-pro')
 
